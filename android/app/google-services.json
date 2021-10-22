@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1032862895223",
+    "project_id": "emailsigninauthdemo",
+    "storage_bucket": "emailsigninauthdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032862895223:android:d53ccc7e2ef11b7c094a72",
+        "android_client_info": {
+          "package_name": "com.example.email_authentication_firebase_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032862895223-t29dgjfeikr5biu141om9aqhb3ea0vn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKajnOHrNsL7yPsSjJPrZtT-S2p9ogjk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032862895223-t29dgjfeikr5biu141om9aqhb3ea0vn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
