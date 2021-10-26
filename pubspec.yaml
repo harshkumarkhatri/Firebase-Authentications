@@ -40,6 +40,8 @@ dependencies:
   google_sign_in: ^5.2.0
   # google_sign_in: "^4.5.1"
   flutter_facebook_auth: ^3.5.2
+  github_sign_in: ^0.0.5-dev.3
+  twitter_login: ^4.0.1
 
 dev_dependencies:
   flutter_test:
