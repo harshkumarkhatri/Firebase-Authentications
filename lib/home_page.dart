@@ -1,10 +1,12 @@
 // ignore_for_file: file_names
 
 import 'package:email_authentication_firebase_flutter/facebook_sign_in.dart';
+import 'package:email_authentication_firebase_flutter/github_screen.dart';
 import 'package:email_authentication_firebase_flutter/google_sign_in.dart';
 import 'package:email_authentication_firebase_flutter/login_screen.dart';
 import 'package:email_authentication_firebase_flutter/sign_out_screen.dart';
 import 'package:email_authentication_firebase_flutter/sign_up_screen.dart';
+import 'package:email_authentication_firebase_flutter/twitter_screen.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -103,6 +105,40 @@ class _HomePageState extends State<HomePage> {
               },
               child: const Text(
                 "Facebook Sign In",
+              ),
+            ),
+            SizedBox(
+              height: 16,
+            ),
+            TextButton(
+              style: TextButton.styleFrom(
+                primary: Colors.white,
+                backgroundColor: Colors.teal,
+                onSurface: Colors.grey,
+              ),
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => GithubSignInScreen()));
+              },
+              child: const Text(
+                "Github Sign In",
+              ),
+            ),
+            SizedBox(
+              height: 16,
+            ),
+            TextButton(
+              style: TextButton.styleFrom(
+                primary: Colors.white,
+                backgroundColor: Colors.teal,
+                onSurface: Colors.grey,
+              ),
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => TwitterSignInScreen()));
+              },
+              child: const Text(
+                "Twitter Sign In",
               ),
             ),
           ],
